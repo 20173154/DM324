@@ -1,0 +1,84 @@
+.title{
+    text-align: center; 
+    color:4CAF50;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    border: 1px solid #e7e7e7; 
+    background-color: #f3f3f3;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+
+}
+li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #008CBA;
+}
+
+li a{
+    display: block;
+    color: #666;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+li a:hover{
+    background-color: #dddddd;
+}
+
+.nav-right{
+    float:right;
+}
+li a.active{
+background-color: rgb(76, 175, 80);
+color:white;
+}
+.button{
+    background-color: rgb(76, 175, 80);
+    border:none;
+    padding: 15px 32px;
+    color:white;
+    font-size:14px;
+    display: inline-block;
+
+}
+
+input[type=text],[type=email],[type=tel],[type=date],select,textarea{
+    width: 50%;
+    padding: 6px 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+fieldset{
+    margin: 20px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+form{
+    width: 100%;
+    
+}

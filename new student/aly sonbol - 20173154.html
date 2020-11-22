@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>new student page</title>
+        <link rel="stylesheet" type="text/css" href="new student style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+            
+                <li>
+                    <a href="studentlist.html">studentlist</a>
+                </li>
+
+                <li>
+                    <a href="newstydent.html">newstudent</a>
+                </li>
+                <li class="nav-right"><a href="sign.html">Logout</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <section>
+        <h1 class="title"> New Student</h1>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>personal information</legend>
+                <p>
+                    <label>
+                        Full Name:
+                        <input name="txtFullName" required type="text">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Birthdate:
+                        <input name="txtBirthdate" required type="date">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Gender:
+                        
+                        <input name="gender" value="Male" type="radio">
+                        Male
+                        <input name="gender" value="Female" type="radio">
+                        Female
+                    </label>
+                </p>               
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <label>
+                    Email:
+                    <input name="txtEmail" type="email">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Phone:
+                        <input name="txtPhone" type="tel">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Adress:
+                        <textarea name="txtAdress" row="4" col="60"></textarea>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>University Information</legend>
+                <p>
+                    <label>
+                        Choose Your Faculty: 
+                        <select name="Faculty" ></select>
+                    </label>
+                </p>
+            </fieldset>
+            <input class="button" value="Add" type="submit">
+        </form>
+    </section>
+    <hr>
+        <footer>
+            <a href="http://www.fue.edu.eg" target="_blank">© Future University in Egypt</a>
+            ----
+            <a href="mailto:20132627@fue.edu.eg" >Contact Us</a>
+        </footer>
+
+    </body>
+</html>    
